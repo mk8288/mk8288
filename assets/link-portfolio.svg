@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="38" viewBox="0 0 136 38" role="img" aria-labelledby="title desc">
+<title id="title">Portfolio</title><desc id="desc"></desc>
+<style>
+:root{--bg:#F6F8FA;--surface:#FFFFFF;--border:#CBD5E1;--fg:#182434;--muted:#526171;--accent:#096B80;--mint:#16704B;--grid:#E2E8F0}
+@media(prefers-color-scheme:dark){:root{--bg:#0D1117;--surface:#161D27;--border:#303B49;--fg:#F0F6FC;--muted:#AAB8C7;--accent:#64D8ED;--mint:#72E1B3;--grid:#233043}}
+.bg{fill:var(--bg)}.surface{fill:var(--surface)}.fg{fill:var(--fg)}.muted{fill:var(--muted)}.accent{fill:var(--accent)}.mint{fill:var(--mint)}.border{stroke:var(--border)}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="135" height="37" rx="7" class="surface border"/><text x="15" y="25" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16" font-weight="600" class="accent" >↗</text><text x="41" y="25" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="14" font-weight="600" class="fg" >Portfolio</text></svg>
