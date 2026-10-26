@@ -1,6 +1,6 @@
 {
   "username": "mk8288",
-  "fetched_at": "2026-10-26T15:58:55+00:00",
+  "fetched_at": "2026-10-26T16:13:08+00:00",
   "sources": [
     "https://api.github.com/users/mk8288",
     "https://api.github.com/users/mk8288/repos?type=owner&per_page=100",
@@ -73,7 +73,7 @@
       "name": "mk8288",
       "html_url": "https://github.com/mk8288/mk8288",
       "fork": false,
-      "language": null,
+      "language": "Python",
       "stargazers_count": 0,
       "archived": false
     },
