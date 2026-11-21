@@ -11,22 +11,30 @@
   <a href="mailto:fall2026.mkaif@gmail.com"><img src="assets/link-email.svg" alt="Email me" width="136" height="38"></a>
 </p>
 
-I build CTF challenges, teach cybersecurity, and run the infrastructure behind live competitions. I'm studying **Security and Resilience at Imperial College London**, with interests in offensive security, AI-assisted testing, and infrastructure defence.
+I'm studying **Security and Resilience at Imperial College London**, with experience in security monitoring tools, CTF development and cloud-hosted competition infrastructure. I'm seeking graduate roles in security engineering or offensive security.
 
-**100+ CTF challenges created at CyberArts** · **29th globally in POCTF 2024** · **B.Tech CSE, 9.04/10**
+**200+ CTF challenges created at CyberArts** · **POCTF participant** · **B.Tech CSE, 9.04/10**
 
 [Projects](#selected-projects) · [Security work](#security-work) · [Tools](#tools-i-work-with) · [Mini CTF](#a-small-ctf-before-you-go)
+
+## Education
+
+**Imperial College London**<br>
+MSc Security and Resilience: Science and Technology · Sep 2026–Sep 2027
+
+**SRM Institute of Science and Technology**<br>
+B.Tech Computer Science and Engineering, Cloud Computing · Aug 2022–May 2026 · CGPA: 9.04/10
 
 ## Selected projects
 
 <a href="https://github.com/mk8288/BastionAI">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/project-bastion-compact.svg">
-    <img src="assets/project-bastion.svg" width="100%" alt="BastionAI. Experimental AI-assisted penetration-testing research. Python, Flask, LLM agents. Open repository.">
+    <img src="assets/project-bastion.svg" width="100%" alt="BastionAI. Interactive penetration-testing workflow simulation. Python and Flask. Open repository.">
   </picture>
 </a>
 
-**[BastionAI](https://github.com/mk8288/BastionAI)** explores how language-model reasoning can work with Nmap, Nikto, and Metasploit in authorised testing environments. An experimental academic research project.
+**[BastionAI](https://github.com/mk8288/BastionAI)** is an interactive penetration-testing workflow demonstration built with Python and Flask. It includes a browser terminal, operator approval prompts and HTML reports, using scripted DVWA and Metasploitable2 findings.
 
 <a href="https://github.com/mk8288/face-recognition">
   <picture>
@@ -40,38 +48,48 @@ I build CTF challenges, teach cybersecurity, and run the infrastructure behind l
 <a href="https://github.com/mk8288/L.A.N.D.E.R">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/project-lander-compact.svg">
-    <img src="assets/project-lander.svg" width="100%" alt="L.A.N.D.E.R. Lunar image super-resolution research using Python, PyTorch and SRGAN. Open repository.">
+    <img src="assets/project-lander.svg" width="100%" alt="L.A.N.D.E.R. Team-led lunar image processing prototype using Python, Flask and SRGAN. Open repository.">
   </picture>
 </a>
 
-**[L.A.N.D.E.R](https://github.com/mk8288/L.A.N.D.E.R)** explores image super-resolution for lunar terrain assessment and landing-site hazard mapping using Chandrayaan TMC-2 and NASA LRO imagery.
+**[L.A.N.D.E.R](https://github.com/mk8288/L.A.N.D.E.R)**
+
+- Led the project team, coordinating members' contributions to the shared lunar-image processing prototype.
+- Contributed to SRGAN image super-resolution in Python and a Flask interface for exploring lunar imagery.
 
 ## Security work
 
+<details open>
+<summary><strong>Code Kids · Part-time Instructor · Oct 2026–Present</strong></summary>
+
+I mentor children aged 8–12 through coding and Sphero robotics projects. I coordinate with fellow instructors to deliver classroom activities and help students troubleshoot their work.
+
+I am expected to contribute as one of the architects of Code Kids' planned cybersecurity course, drawing on my CTF design and cybersecurity teaching experience.
+
+</details>
+
 <details>
-<summary><strong>CyberArts · CTF development & teaching</strong></summary>
+<summary><strong>CyberArts · Technical Operations · Nov 2024–Sep 2026</strong></summary>
 
-I've created **100+ challenges** across web exploitation, reverse engineering, forensics, cryptography, and OSINT for CyberArts, alongside coaching students across the United States.
+I created **200+ challenges** across web exploitation, reverse engineering, forensics, cryptography and OSINT, and coached four US high-school student cohorts.
 
-My teaching work involves helping students investigate vulnerabilities, test an approach, and explain how they reached a solution.
+I onboarded and verified **200+ students**, resolved account and platform-access issues, and collaborated with the founder on teaching materials. I coordinated technical content and visual design while balancing challenge development, onboarding and technical support against course-delivery deadlines.
 
 </details>
 
 <details>
 <summary><strong>HackTheFlag · Competition infrastructure & defence</strong></summary>
 
-I organised a **24-hour CTF at SRMIST**, with **150+ registrations** and **20+ custom challenges**. The infrastructure used Azure, Docker, Kubernetes, and CTFd. During the event, I mitigated a live DDoS attack using Cloudflare WAF.
+I led technical operations with the organising team for a **24-hour CTF at SRMIST**, coordinating platform support for **150+ participants**. I deployed **20+ custom challenges** on Azure using Docker, Kubernetes and CTFd, and responded to a live DDoS attack using Cloudflare during the event.
 
 </details>
 
 <details>
-<summary><strong>Education · Imperial College London & SRMIST</strong></summary>
+<summary><strong>Leadership & community · Imperial College London</strong></summary>
 
-**Imperial College London**  
-MSc Security and Resilience: Science and Technology · 2026–2027
+As **Class Representative for MSc Security and Resilience**, I raise peers' coursework questions with professors and relay clarifications to the cohort.
 
-**SRM Institute of Science and Technology**  
-B.Tech Computer Science and Engineering, Cloud Computing · CGPA: 9.04/10
+I also contribute CTF challenges to **Imperial CyberSoc**. My competition participation includes **POCTF** and **HacksCTF 2024 with team ByteBlitzers**.
 
 </details>
 
@@ -90,9 +108,16 @@ B.Tech Computer Science and Engineering, Cloud Computing · CGPA: 9.04/10
   <img src="assets/tool-burp-suite.svg" alt="Burp Suite" height="32">
   <img src="assets/tool-wireshark.svg" alt="Wireshark" height="32">
   <img src="assets/tool-ghidra.svg" alt="Ghidra" height="32">
+  <img src="assets/tool-splunk.svg" alt="Splunk" height="32">
+  <img src="assets/tool-wazuh.svg" alt="Wazuh" height="32">
+  <img src="assets/tool-microsoft-sentinel.svg" alt="Microsoft Sentinel" height="32">
 </p>
 
-I also work with JavaScript, SQL, Java, and Node.js. The badges are tools I use, not proficiency ratings.
+**SIEM & monitoring:** Splunk, Wazuh and Microsoft Sentinel.<br>
+**Offensive security:** Penetration-testing methodology and Active Directory testing through ongoing OSCP-oriented lab practice.<br>
+**Other development tools:** JavaScript, SQL, Java and Node.js.
+
+The badges are tools I use, not proficiency ratings. OSCP-oriented practice describes lab work, not a certification.
 
 <details>
 <summary><strong>Open my contribution trace & public repository activity</strong></summary>

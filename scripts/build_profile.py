@@ -174,9 +174,9 @@ def button(label, symbol):
 
 
 PROJECTS = [
-    ("bastion", "01", "BastionAI", "AI-ASSISTED SECURITY TESTING", ["An experimental agent for authorised", "penetration-testing research."], "Python / Flask / LLM agents", "agent"),
+    ("bastion", "01", "BastionAI", "SECURITY WORKFLOW SIMULATION", ["Interactive penetration-testing workflows", "with scripted findings and HTML reports."], "Python / Flask / Security reporting", "agent"),
     ("vision", "02", "Face & Object Detection", "COMPUTER VISION", ["Face recognition and YOLOv3 detection", "in the same real-time video stream."], "Python / OpenCV / YOLOv3", "vision"),
-    ("lander", "03", "L.A.N.D.E.R", "LUNAR IMAGE SUPER-RESOLUTION", ["Exploring terrain assessment through", "super-resolution of lunar imagery."], "Python / PyTorch / SRGAN", "terrain"),
+    ("lander", "03", "L.A.N.D.E.R", "LUNAR IMAGE SUPER-RESOLUTION", ["Team-led lunar image processing", "with SRGAN and a Flask interface."], "Python / Flask / SRGAN", "terrain"),
 ]
 
 
@@ -259,7 +259,7 @@ def build(data):
     for item in PROJECTS:
         files["project-"+item[0]+".svg"]=project_card(item)
         files["project-"+item[0]+"-compact.svg"]=project_card(item,True)
-    for label in ["Python","Rust","C / C++","Linux","Docker","Azure","Cloudflare","React","Flask","Burp Suite","Wireshark","Ghidra"]:
+    for label in ["Python","Rust","C / C++","Linux","Docker","Azure","Cloudflare","React","Flask","Burp Suite","Wireshark","Ghidra","Splunk","Wazuh","Microsoft Sentinel"]:
         slug=re.sub(r"[^a-z0-9]+","-",label.lower()).strip("-")
         width=max(72,len(label)*8+28)
         content=f'<rect x=".5" y=".5" width="{width-1}" height="31" rx="6" class="surface border"/>'+text(14,21,label,size=13,mono=True)
