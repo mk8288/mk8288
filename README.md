@@ -2,7 +2,7 @@
   <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-compact-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
   <source media="(max-width: 600px)" srcset="assets/hero-compact.svg">
-  <img src="assets/hero.svg" width="100%" alt="Mohammad Kaif. Security engineer and CTF creator. MSc Security and Resilience at Imperial College London, 2026–2027.">
+  <img src="assets/hero.svg" width="100%" alt="Mohammad Kaif. Software engineering and cybersecurity. MSc Security and Resilience at Imperial College London, 2026–2027.">
 </picture>
 
 <p>
@@ -11,7 +11,7 @@
   <a href="mailto:fall2026.mkaif@gmail.com"><img src="assets/link-email.svg" alt="Email me" width="136" height="38"></a>
 </p>
 
-I'm studying **Security and Resilience at Imperial College London**, with experience in security monitoring tools, CTF development and cloud-hosted competition infrastructure. I'm seeking graduate roles in security engineering or offensive security.
+I'm studying **Security and Resilience at Imperial College London**, with experience developing Python applications, deploying cloud infrastructure and creating cybersecurity exercises. I'm seeking graduate roles in **software engineering and cybersecurity**, including offensive security, red teaming and security engineering.
 
 **200+ CTF challenges created at CyberArts** · **POCTF participant** · **B.Tech CSE, 9.04/10**
 
@@ -34,7 +34,7 @@ B.Tech Computer Science and Engineering, Cloud Computing · Aug 2022–May 2026 
   </picture>
 </a>
 
-**[BastionAI](https://github.com/mk8288/BastionAI)** is an interactive penetration-testing workflow demonstration built with Python and Flask. It includes a browser terminal, operator approval prompts and HTML reports, using scripted DVWA and Metasploitable2 findings.
+**[BastionAI](https://github.com/mk8288/BastionAI) · May 2026** is a Python/Flask web application with a browser terminal, operator approval prompts and HTML report generation. It demonstrates penetration-testing workflows using simulated DVWA and Metasploitable2 scenarios.
 
 <a href="https://github.com/mk8288/face-recognition">
   <picture>
@@ -52,10 +52,10 @@ B.Tech Computer Science and Engineering, Cloud Computing · Aug 2022–May 2026 
   </picture>
 </a>
 
-**[L.A.N.D.E.R](https://github.com/mk8288/L.A.N.D.E.R)**
+**[L.A.N.D.E.R](https://github.com/mk8288/L.A.N.D.E.R) · Oct 2024**
 
 - Led the project team, coordinating members' contributions to the shared lunar-image processing prototype.
-- Contributed to SRGAN image super-resolution in Python and a Flask interface for exploring lunar imagery.
+- Contributed Python image-processing code and a Flask interface for an SRGAN super-resolution prototype.
 
 ## Security work
 
@@ -87,9 +87,9 @@ I led technical operations with the organising team for a **24-hour CTF at SRMIS
 <details>
 <summary><strong>Leadership & community · Imperial College London</strong></summary>
 
-As **Class Representative for MSc Security and Resilience**, I raise peers' coursework questions with professors and relay clarifications to the cohort.
+As **Class Representative for MSc Security and Resilience (Oct 2026–Present)**, I raise peers' coursework questions with professors and relay clarifications to the cohort.
 
-I also contribute CTF challenges to **Imperial CyberSoc**. My competition participation includes **POCTF** and **HacksCTF 2024 with team ByteBlitzers**.
+I also contribute CTF challenges to **Imperial CyberSoc (Sep 2026–Present)**. My competition participation includes **POCTF** and **HacksCTF 2024 with team ByteBlitzers**.
 
 </details>
 

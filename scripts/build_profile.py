@@ -141,12 +141,12 @@ def hero(compact=False):
     if compact:
         content += text(p, 106, "Mohammad", size=49, weight=750)
         content += text(p, 164, "Kaif.", size=57, weight=750)
-        content += text(p, 209, "Security engineer. CTF creator.", size=20, cls="muted")
+        content += text(p, 209, "Software engineering & cybersecurity", size=20, cls="muted")
         content += text(p, 239, "Imperial College London · MSc 2026–27", size=16, cls="muted")
         term_y = 275
     else:
         content += text(p, 133, "Mohammad Kaif.", size=68, weight=750, letter_spacing=-2)
-        content += text(p, 182, "Security engineer. CTF creator.", size=27, cls="muted")
+        content += text(p, 182, "Software engineering & cybersecurity", size=27, cls="muted")
         content += text(p, 218, "Imperial College London · MSc Security & Resilience", size=18, cls="muted")
         content += '<g transform="translate(822 143)"><path d="M0 -62 L65 -38 L58 30 Q34 66 0 79 Q-34 66 -58 30 L-65 -38 Z" fill="none" stroke="var(--border)" stroke-width="2"/><path d="M-36 15 L-36 -18 L0 -18 L0 -39 M0 -18 L34 -18 L34 16 L0 16 L0 43" fill="none" stroke="var(--accent)" stroke-width="2"/>'
         for x, y in [(-36,15),(0,-39),(34,16),(0,43)]:
@@ -163,7 +163,7 @@ def hero(compact=False):
     content += f'<g clip-path="url(#typing)">{text(p+40,term_y+33,command,size=16 if compact else 19,mono=True)}</g>'
     content += f'<rect x="{w-p-22}" y="{term_y+17}" width="7" height="20" class="accent cursor"/>'
     css = '@keyframes type{0%{width:0}16%,92%{width:100%}100%{width:0}}.reveal{animation:type 14s steps(50,end) infinite}@keyframes blink{0%,45%{opacity:1}50%,95%{opacity:0}}.cursor{animation:blink 1.6s step-end infinite}@media(prefers-reduced-motion:reduce){.packet{display:none}.reveal{width:100%}.cursor{opacity:1}}'
-    return svg(w,h,content,"Mohammad Kaif | Security engineer and CTF creator","Animated console header. MSc Security and Resilience at Imperial College London, 2026–2027.",css)
+    return svg(w,h,content,"Mohammad Kaif | Software engineering and cybersecurity","Animated console header. MSc Security and Resilience at Imperial College London, 2026–2027.",css)
 
 
 def button(label, symbol):
